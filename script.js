@@ -10,10 +10,23 @@ if ($valor == true){
 
 */
 
+/*
+email = prompt("Digite seu email: " );
 
-$email = prompt("Digite seu email: " );
-// alert("email " + $email + " foi coletado com sucesso")
+if (email == undefined || email == "") {
+    alert("email não coletado")
+}else if(email != undefined){
+    alert("email " + email + " foi coletado com sucesso");
+}
+*/
 
-if ($email == true) {
-   alert("email " + $email + " foi coletado com sucesso");
+prova = parseFloat(prompt("Digite a nota da prova:"));
+trabalho = parseFloat(prompt("Digite a nota da prova:"));
+
+notaFinal = prova + trabalho;
+
+if (prova != parseFloat) {
+    alert("apenas números");
+} else {
+    alert("Nota final: " + notaFinal)
 }

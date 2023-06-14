@@ -1,6 +1,6 @@
-conceito = prompt('Qual foi o seu conceito')
+conceito = prompt('Qual foi o seu conceito').toString()
 result = conceito
-switch (result) {
+switch (result.toUpperCase()) {
     case 'A':
         alert('Excelente')
         break

@@ -1,4 +1,4 @@
-conceito = prompt('Qual foi o seu conceito').toString()
+conceito = prompt('Qual foi o seu conceito')
 result = conceito
 switch (result.toUpperCase()) {
     case 'A':

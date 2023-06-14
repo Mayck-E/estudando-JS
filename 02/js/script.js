@@ -3,8 +3,8 @@ let fruta = 'fruta'
 let span = document.getElementById('texto')
 fruta = prompt('O que deseja?')
 
-switch (fruta) {
-    case 'maçã':
+switch (fruta.toLowerCase()) {
+    case 'maça':
         alert('Não vendemos essa fruta aqui')
         break
     case 'kiwi':

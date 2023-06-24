@@ -1,4 +1,4 @@
-/* console.log('WHILE')
+console.log('WHILE')
 let tabuada = 7
 let contador = 0
 let contador3 = 0
@@ -26,10 +26,4 @@ do {
     contador3++
   } while (contador3 <= 10);
 
-*/
-let num = prompt('Digite o seu número')
-let cont = 1
-while(cont != num++){
-    console.log(cont)
-    cont++
-}
+
